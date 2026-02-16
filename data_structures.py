@@ -16,7 +16,7 @@ def main():
     foods_set = set(foods_list)  # TODO: set(foods_list)
 
     profile_dict = {"name": name, "city": city, "age": age, "foods": foods_list}  # TODO: {'name': name, 'city': city, 'age': age, 'foods': foods_list}
-    summary_tuple = tuple(name, age, city)  # TODO: (name, age, city)
+    summary_tuple = (name, age, city)  # TODO: (name, age, city)
 
     # 3) Output (garde exactement ces libellés)
     print("--------------------")
